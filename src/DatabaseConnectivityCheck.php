@@ -3,8 +3,8 @@
 namespace Alahaxe\HealthCheckBundle\Checks\Doctrine;
 
 use Alahaxe\HealthCheck\Contracts\CheckInterface;
+use Alahaxe\HealthCheck\Contracts\CheckStatus;
 use Alahaxe\HealthCheck\Contracts\CheckStatusInterface;
-use Alahaxe\HealthCheckBundle\Contracts\CheckStatus;
 use Doctrine\ORM\EntityManagerInterface;
 
 class DatabaseConnectivityCheck implements CheckInterface
