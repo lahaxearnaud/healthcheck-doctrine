@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/lahaxearnaud/healthcheck-doctrine/compare/v1.0.1...v1.0.2) (2022-01-05)
+
+
+### Bug Fixes
+
+* **deps:** Force release ([10de231](https://github.com/lahaxearnaud/healthcheck-doctrine/commit/10de231ceb567a69b5ea504ddeca475627fbee4a))
+
 ## [1.0.1](https://github.com/lahaxearnaud/healthcheck-doctrine/compare/v1.0.0...v1.0.1) (2022-01-01)
 
 
