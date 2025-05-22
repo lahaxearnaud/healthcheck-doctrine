@@ -18,7 +18,7 @@ class DatabaseConnectivityCheck implements CheckInterface
     {
         $status = CheckStatus::STATUS_OK;
         try {
-            $this->entityManager->getConnection()->connect();
+            $this->entityManager->getConnection()->executeQuery('SELECT 1');
         } catch (\Exception $e) {
             $status = CheckStatus::STATUS_INCIDENT;
         }
